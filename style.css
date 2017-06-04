@@ -1,0 +1,89 @@
+body{
+  background-color:#404040;
+  color:black;
+  font-family:Baskerville;
+}
+
+
+.navbar-nav{
+  flex-direction:row;
+  background-color:#25C5B5;
+  width:100%;
+  text-align:center;
+}
+.navigation li{
+  flex:1;
+}
+.navigation a{
+  color:black; 
+}
+.navigation li a:hover{
+  background-color:#00997a;
+}
+.introduction{
+  background:linear-gradient(black, white);
+   
+  text-align:center;
+   color: #333333;
+  margin-bottom:0px;
+  
+}
+.intro-matter{
+  font-size:20px;
+   margin:auto;
+ width:50%;
+}
+.intro-matter p{
+  margin:0;
+}
+.introduction img{
+ height:250px; 
+  width:250px;
+  border-radius:50%;
+  margin-top:20px;
+}
+.portfolio h2{
+  padding:15px;
+}
+.portfolio{
+   background:linear-gradient(white, black);
+  margin-top:0 px;
+  text-align:center; 
+}
+.portfolio img{
+  border-radius:15px;
+  padding:px;
+}
+.portfolio img:hover{
+box-shadow:0px 0px 10px 8px white;
+}
+.imgdesc{
+  text-align:center;
+  padding:10px;
+  font-size:15px;
+}
+.portfolio h2{
+  margin-top:0px;
+}
+.form input{
+  padding:10px;
+  width:550px;
+}
+.form{
+  background-color:black;
+  text-align:center;
+  padding:35px;
+}
+.form h2{
+  margin-top:0px;
+  color:white;
+}
+.form li{
+  padding:5px;
+}
+.form ul{
+ list-style: none;
+}
+.social-media{
+  color:white;
+}
